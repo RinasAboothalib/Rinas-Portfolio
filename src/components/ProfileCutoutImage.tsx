@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import profileImage from '../../assets/rinas-profile.png';
 
 interface ProfileCutoutImageProps {
   className?: string;
@@ -77,7 +78,7 @@ export const ProfileCutoutImage: React.FC<ProfileCutoutImageProps> = ({
 
           {!imageError ? (
             <img
-              src="/rinas-profile.png"
+              src={profileImage}
               alt="Rinas Aboothalib"
               onLoad={() => setImageLoaded(true)}
               onError={() => setImageError(true)}

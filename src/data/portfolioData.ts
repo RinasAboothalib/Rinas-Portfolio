@@ -300,7 +300,7 @@ export const CERTIFICATIONS_DATA: CertificationItem[] = [
   {
     id: "cert-3",
     title: "PYTHON FOR BEGINNERS",
-    issuer: "University of Moratuwa — Sri Lanka",,
+    issuer: "University of Moratuwa — Sri Lanka",
     icon: "Python"
   }
 ];

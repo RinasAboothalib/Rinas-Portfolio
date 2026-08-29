@@ -5,7 +5,7 @@ export const PERSONAL_INFO = {
   firstName: "RINAS",
   title: "Software Engineering Intern",
   subtitle: "AI & Machine Learning Enthusiast",
-  primaryTitle: "Aspiring Software Engineering | AI & Machine Learning Enthusiast",
+  primaryTitle: "Aspiring AI Engineering | AI & Machine Learning Enthusiast",
   bioShort: "Aspiring Artificial Intelligence and Machine Learning practitioner with hands-on experience in academic and personal projects, focused on building intelligent, user-friendly and real-world digital solutions.",
   aboutText: "I am a passionate software engineering practitioner with a deep focus on Artificial Intelligence, Machine Learning, and modern full-stack web engineering. Currently pursuing an HND in Information Technology at SLIATE, I bridge academic concepts with real-world applications through hands-on development.",
   aboutHighlights: [
@@ -296,6 +296,12 @@ export const CERTIFICATIONS_DATA: CertificationItem[] = [
     issuer: "Microsoft",
     duration: "2024 – Present",
     icon: "Award"
+  },
+  {
+    id: "cert-3",
+    title: "PYTHON FOR BEGINNERS",
+    issuer: "University of Moratuwa — Sri Lanka",,
+    icon: "Python"
   }
 ];
 

@@ -61,7 +61,7 @@ export const Footer: React.FC = () => {
             © 2026 Rinas Aboothalib. All rights reserved.
           </div>
           <div className="flex items-center gap-1">
-            <span>Built with React, TypeScript & AI/ML Vision</span>
+            <span>by - Rinas Aboothalib</span>
           </div>
         </div>
       </div>

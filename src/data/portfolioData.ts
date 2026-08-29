@@ -3,9 +3,9 @@ import { Project, Skill, ExperienceItem, EducationItem, CertificationItem, Langu
 export const PERSONAL_INFO = {
   name: "RINAS ABOOTHALIB",
   firstName: "RINAS",
-  title: "Software Engineering Intern",
+  title: "Aspiring AI Engineer",
   subtitle: "AI & Machine Learning Enthusiast",
-  primaryTitle: "Aspiring AI Engineering | AI & Machine Learning Enthusiast",
+  primaryTitle: "Aspiring AI Engineer | AI & Machine Learning Enthusiast",
   bioShort: "Aspiring Artificial Intelligence and Machine Learning practitioner with hands-on experience in academic and personal projects, focused on building intelligent, user-friendly and real-world digital solutions.",
   aboutText: "I am a passionate software engineering practitioner with a deep focus on Artificial Intelligence, Machine Learning, and modern full-stack web engineering. Currently pursuing an HND in Information Technology at SLIATE, I bridge academic concepts with real-world applications through hands-on development.",
   aboutHighlights: [

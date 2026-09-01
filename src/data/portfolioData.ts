@@ -7,7 +7,7 @@ export const PERSONAL_INFO = {
   subtitle: "AI & Machine Learning Enthusiast",
   primaryTitle: "Aspiring AI Engineer | AI & Machine Learning Enthusiast",
   bioShort: "Aspiring Artificial Intelligence and Machine Learning practitioner with hands-on experience in academic and personal projects, focused on building intelligent, user-friendly and real-world digital solutions.",
-  aboutText: "I am a passionate software engineering practitioner with a deep focus on Artificial Intelligence, Machine Learning, and modern full-stack web engineering. Currently pursuing an HND in Information Technology at SLIATE, I bridge academic concepts with real-world applications through hands-on development.",
+  aboutText: "I am a passionate AI engineering practitioner with a deep focus on Artificial Intelligence, Machine Learning, and modern full-stack web engineering. Currently pursuing an HND in Information Technology at SLIATE, I bridge academic concepts with real-world applications through hands-on development.",
   aboutHighlights: [
     "Dedicated to developing intelligent, user-centered full-stack applications",
     "Active Microsoft Student Ambassador engaging with student communities",
@@ -258,7 +258,7 @@ export const PROJECTS_DATA: Project[] = [
 export const EDUCATION_DATA: EducationItem[] = [
   {
     id: "edu-1",
-    degree: "HND IN INFORMATION TECHNOLOGY",
+    degree: "HND in INFORMATION TECHNOLOGY",
     institution: "Sri Lanka Institute of Advanced Technological Education — SLIATE",
     period: "2023 – 2026",
     location: "Trincomalee / Sri Lanka",

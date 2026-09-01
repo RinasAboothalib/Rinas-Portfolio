@@ -74,7 +74,7 @@ export const Hero: React.FC<HeroProps> = ({ onViewProjects, onOpenCvModal, onCon
                 </span>
               </h1>
               <p className="text-lg sm:text-xl font-medium text-slate-200 pt-1">
-                Software Engineering Intern <span className="text-cyan-400 font-bold mx-2">|</span> AI & Machine Learning Enthusiast
+                Aspiring AI Engineer <span className="text-cyan-400 font-bold mx-2">|</span> AI & ML Enthusiast
               </p>
             </div>
 

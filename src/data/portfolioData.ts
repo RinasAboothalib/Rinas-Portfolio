@@ -5,7 +5,7 @@ export const PERSONAL_INFO = {
   firstName: "RINAS",
   title: "Aspiring AI Engineer",
   subtitle: "AI & Machine Learning Enthusiast",
-  primaryTitle: "Aspiring AI Engineer | AI & Machine Learning Enthusiast",
+  primaryTitle: "Aspiring AI Engineer | Founder & CEO @CodeDot Technologies |AI & Machine Learning Enthusiast",
   bioShort: "Aspiring Artificial Intelligence and Machine Learning practitioner with hands-on experience in academic and personal projects, focused on building intelligent, user-friendly and real-world digital solutions.",
   aboutText: "I am a passionate AI engineering practitioner with a deep focus on Artificial Intelligence, Machine Learning, and modern full-stack web engineering. Currently pursuing an HND in Information Technology at SLIATE, I bridge academic concepts with real-world applications through hands-on development.",
   aboutHighlights: [
@@ -153,6 +153,13 @@ export const SKILLS_DATA: Skill[] = [
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
     id: "exp-1",
+    role: "Founder & CEO",
+    organization: "CodeDot Technologies",
+    period: "2026"
+    description: "Providing IT Services And Ai Intergrated Software Developments",
+    icon: "Code"
+  }, 
+    id: "exp-2",
     role: "Microsoft Student Ambassador",
     organization: "Microsoft",
     period: "2024 – Present",
@@ -165,7 +172,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     icon: "Award"
   },
   {
-    id: "exp-2",
+    id: "exp-3",
     role: "IT & English Language Tutor",
     organization: "Freelance / Academic Support",
     period: "Ongoing",
@@ -178,7 +185,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     icon: "GraduationCap"
   },
   {
-    id: "exp-3",
+    id: "exp-4",
     role: "Content Creator",
     organization: "Tech & Media Channels",
     period: "Ongoing",

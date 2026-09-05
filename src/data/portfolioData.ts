@@ -155,10 +155,14 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     id: "exp-1",
     role: "Founder & CEO",
     organization: "CodeDot Technologies",
-    period: "2026"
-    description: "Providing IT Services And Ai Intergrated Software Developments",
+    period: "2026",
+    description: "Software Company",
+    highlights: [
+      "Providing IT Services And Ai Intergrated Software Developments"
+    ],
     icon: "Code"
-  }, 
+  },
+  {
     id: "exp-2",
     role: "Microsoft Student Ambassador",
     organization: "Microsoft",

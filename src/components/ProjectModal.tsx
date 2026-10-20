@@ -46,7 +46,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
           {/* Interactive Graphic Preview Card inside Modal */}
           <div className="relative rounded-2xl overflow-hidden bg-slate-900 border border-slate-800 p-6 flex flex-col items-center justify-center text-center space-y-3 shadow-inner">
             <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center text-slate-950 font-black text-xl shadow-lg">
-              {project.id === 'proj-csrp' ? 'CSRP' : project.id === 'proj-resume-ai' ? 'AI' : project.id === 'proj-vs-plus' ? 'VS' : 'RA'}
+              {project.id === 'proj-csrp' ? 'CSRP' : project.id === 'proj-resume-ai' ? 'AI' : project.id === 'proj-vs-plus' ? 'VS' : project.id === 'proj-bigman' ? 'BM' : project.id === 'proj-medium-events' ? 'ME' : project.id === 'proj-highrise' ? 'HI' : project.id === 'proj-neomed' ? 'NM' : project.id === 'proj-chibs' ? 'CC' : 'RA'}
             </div>
             <div className="text-xs text-cyan-400 font-semibold tracking-widest uppercase">
               {project.title} — {project.id === 'proj-vs-plus' ? 'PROJECT OVERVIEW' : 'LIVE ARCHITECTURE MOCKUP'}

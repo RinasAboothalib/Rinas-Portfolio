@@ -295,6 +295,104 @@ export const PROJECTS_DATA: Project[] = [
     githubUrl: "https://github.com/RinasAboothalib/VS-plus",
     image: "https://raw.githubusercontent.com/RinasAboothalib/VS-plus/af20c14d49b2cd7fbbb3d8d1bcc75370de98a199/public/assets/img/Cover.jpeg",
     featured: true
+  },
+  {
+    id: "proj-bigman",
+    title: "BIG MAN & CO WEBSITE",
+    subtitle: "Restaurant Website & Online Ordering",
+    category: "Web Applications",
+    description: "A multi-page restaurant website for Big Man & Co in Malé, featuring its menu, restaurant story, food gallery, contact details, and online ordering.",
+    problem: "Restaurant customers need an accessible way to explore the menu, learn about the restaurant, and find a convenient way to order.",
+    solution: "Created a branded restaurant website with dedicated pages for the menu, about information, gallery, contact details, and order flow.",
+    keyFeatures: [
+      "Separate home, menu, about, gallery, contact, and order pages",
+      "In-house and delivery menu views",
+      "Online ordering entry point",
+      "Responsive navigation and restaurant information"
+    ],
+    technologies: ["HTML5", "CSS3", "JavaScript"],
+    githubUrl: "https://github.com/RinasAboothalib/bigman",
+    demoUrl: "https://bigmanco.com/",
+    image: "https://bigmanco.com/assets/img/og-image.jpg",
+    featured: true
+  },
+  {
+    id: "proj-medium-events",
+    title: "MEDIUM EVENTS PLATFORM",
+    subtitle: "Events Website, Admin App & Backend",
+    category: "Web Applications",
+    description: "A platform for MEDIUM Events Pvt Ltd combining a public events website, staff administration app, and backend services for managing events and business operations.",
+    problem: "An events company needs a central platform to present its events publicly while coordinating event information and internal business workflows.",
+    solution: "Built a public website alongside an authenticated staff admin app and API for managing event data and related operations.",
+    keyFeatures: [
+      "Public event pages and event-series listings",
+      "Staff administration for events, programmes, delegates, tasks, budgets, and enquiries",
+      "Role-based access for staff operations",
+      "Event content can be published to the public website"
+    ],
+    technologies: ["React", "Vite", "Tailwind CSS", "Node.js"],
+    githubUrl: "https://github.com/RinasAboothalib/medium-events",
+    demoUrl: "https://medium.mv/",
+    image: "https://raw.githubusercontent.com/RinasAboothalib/medium-events/a032a4bc1d0e1100be9bbca68fbaff48118d3f6a/Frontend/website/public/images/fb/cif-2025.jpg",
+    featured: true
+  },
+  {
+    id: "proj-highrise",
+    title: "HIGHRISE INTERNATIONAL WEBSITE",
+    subtitle: "Event Management, MICE & Experiential Marketing",
+    category: "Web Applications",
+    description: "A corporate website for Highrise International, presenting its event management, MICE, brand activation, and publishing work.",
+    problem: "A regional events company needs a polished online presence to explain its services and showcase its portfolio, team, and experience.",
+    solution: "Developed a React website with dedicated home, about, services, portfolio, team, and contact sections, plus project detail modals.",
+    keyFeatures: [
+      "Dedicated company, services, portfolio, team, and contact views",
+      "Interactive portfolio project details",
+      "Service- and project-specific enquiry flow",
+      "Animated page transitions with reduced-motion support"
+    ],
+    technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "Motion"],
+    githubUrl: "https://github.com/RinasAboothalib/HighRise-International",
+    demoUrl: "https://highriseint.com/",
+    image: "https://raw.githubusercontent.com/RinasAboothalib/HighRise-International/8bfe3afc7050511931d6ed288c9ae9b3ff99ef9b/public/images/hero/hero_stage_01.jpg",
+    featured: true
+  },
+  {
+    id: "proj-neomed",
+    title: "NEOMED INTERNATIONAL WEBSITE",
+    subtitle: "Medical E-commerce Storefront Redesign",
+    category: "Web Applications",
+    description: "A redesigned storefront for NeoMed International that preserves the original site's product content and routes while providing a modern shopping experience.",
+    problem: "The existing storefront needs an updated shopping interface without losing its established product information, page content, and commerce workflows.",
+    solution: "Built a React and TypeScript frontend integrated with WooCommerce for cart totals, shipping options, checkout, and existing contact forms.",
+    keyFeatures: [
+      "Product browsing, search, cart drawer, and native cart and checkout pages",
+      "WooCommerce Store API integration for live cart and order creation",
+      "Contact forms connected to the existing WordPress service",
+      "Preserved route-specific copy, SEO metadata, and media"
+    ],
+    technologies: ["React", "TypeScript", "Vite", "React Router", "Motion"],
+    githubUrl: "https://github.com/RinasAboothalib/Neo-Med-International",
+    image: "https://raw.githubusercontent.com/RinasAboothalib/Neo-Med-International/aedbf93d7329062a11431e3d2a21294f7be9b0f7/public/media/2024-06-Slider-Banner-Koko-scaled.webp",
+    featured: true
+  },
+  {
+    id: "proj-chibs",
+    title: "CHIBS & CO. WEBSITE",
+    subtitle: "Personalized Hand-Painted Wooden Dolls",
+    category: "Web Applications",
+    description: "A product and brand website for CHIBS & CO., showcasing hand-painted wooden dolls and personalized Sweet Chibis as keepsakes and gifts.",
+    problem: "A bespoke craft business needs a warm digital storefront to introduce its products, show examples, explain customization, and connect with customers.",
+    solution: "Created a multi-page React website with dedicated sections for creations, customization, gallery, how it works, and contact.",
+    keyFeatures: [
+      "Creations catalogue and visual gallery",
+      "Dedicated customization and ordering guidance",
+      "Brand story and contact information",
+      "Responsive interface with animated page experiences"
+    ],
+    technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "Motion"],
+    githubUrl: "https://github.com/RinasAboothalib/Chibs-Co",
+    image: "https://raw.githubusercontent.com/RinasAboothalib/Chibs-Co/b67153c9e0d94e8ae66cffb8256dee73adca86c1/public/assets/images/hero_sweet_chibis_1790422314987.jpg",
+    featured: true
   }
 ];
 

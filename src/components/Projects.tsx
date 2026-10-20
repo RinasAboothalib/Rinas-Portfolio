@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { PROJECTS_DATA } from '../data/portfolioData';
 import { Project } from '../types';
-import { Github, ExternalLink, ArrowRight, Eye, Sparkles, Building2, Brain, Layout } from 'lucide-react';
+import { Github, ExternalLink, ArrowRight, Eye, Sparkles, Building2, Brain, Layout, Utensils, CalendarDays, ShoppingBag, Palette } from 'lucide-react';
 import { ProjectModal } from './ProjectModal';
 
 const CATEGORIES = ['All', 'Web Applications', 'AI / ML', 'Personal'] as const;
@@ -100,6 +100,21 @@ export const Projects: React.FC = () => {
                     )}
                     {project.id === 'proj-vs-plus' && (
                       <Sparkles className="w-10 h-10 text-cyan-400 group-hover:scale-110 transition-transform" />
+                    )}
+                    {project.id === 'proj-bigman' && (
+                      <Utensils className="w-10 h-10 text-cyan-400 group-hover:scale-110 transition-transform" />
+                    )}
+                    {project.id === 'proj-medium-events' && (
+                      <CalendarDays className="w-10 h-10 text-cyan-400 group-hover:scale-110 transition-transform" />
+                    )}
+                    {project.id === 'proj-highrise' && (
+                      <Building2 className="w-10 h-10 text-cyan-400 group-hover:scale-110 transition-transform" />
+                    )}
+                    {project.id === 'proj-neomed' && (
+                      <ShoppingBag className="w-10 h-10 text-cyan-400 group-hover:scale-110 transition-transform" />
+                    )}
+                    {project.id === 'proj-chibs' && (
+                      <Palette className="w-10 h-10 text-cyan-400 group-hover:scale-110 transition-transform" />
                     )}
 
                     <div className="font-bold text-slate-100 text-sm tracking-tight">

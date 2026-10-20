@@ -153,6 +153,19 @@ export const SKILLS_DATA: Skill[] = [
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
     id: "exp-1",
+    role: "Web Developer Intern",
+    organization: "Visual Studios Plus (Pvt) Ltd.",
+    period: "Oct 2026 - Present",
+    description: "Working in a professional web development environment to design, build, and improve responsive digital experiences while collaborating with the team on modern frontend solutions.",
+    highlights: [
+      "Developing and refining web interfaces with responsive design principles",
+      "Collaborating with the team on UI implementation and feature development",
+      "Supporting modern web development workflows and project delivery"
+    ],
+    icon: "Award"
+  },
+  {
+    id: "exp-2",
     role: "Founder & CEO",
     organization: "CodeDot Technologies",
     period: "2026",
@@ -163,7 +176,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     icon: "Code"
   },
   {
-    id: "exp-2",
+    id: "exp-3",
     role: "Microsoft Student Ambassador",
     organization: "Microsoft",
     period: "2024 – Present",
@@ -176,7 +189,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     icon: "Award"
   },
   {
-    id: "exp-3",
+    id: "exp-4",
     role: "IT & English Language Tutor",
     organization: "Freelance / Academic Support",
     period: "Ongoing",
@@ -189,7 +202,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     icon: "GraduationCap"
   },
   {
-    id: "exp-4",
+    id: "exp-5",
     role: "Content Creator",
     organization: "Tech & Media Channels",
     period: "Ongoing",

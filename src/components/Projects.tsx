@@ -28,7 +28,7 @@ export const Projects: React.FC = () => {
           className="space-y-2 mb-10 text-center sm:text-left"
         >
           <div className="text-xs tracking-widest text-cyan-400 font-bold uppercase">
-            04 / PROJECTS
+            011 / PROJECTS
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-100 dark:text-white">
             Featured Projects

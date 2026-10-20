@@ -279,7 +279,7 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     id: "proj-vs-plus",
-    title: "VISUAL STUDIOS PLUS WEBSITE",
+    title: "VISUAL STUDIOS PLUS",
     subtitle: "Creative Agency Website & Digital Portfolio",
     category: "Web Applications",
     description: "A responsive website for Visual Studios Plus, presenting the creative agency's services, film work, case studies, photography, and contact information.",
@@ -298,7 +298,7 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     id: "proj-bigman",
-    title: "BIG MAN & CO WEBSITE",
+    title: "BIG MAN & CO",
     subtitle: "Restaurant Website & Online Ordering",
     category: "Web Applications",
     description: "A multi-page restaurant website for Big Man & Co in Malé, featuring its menu, restaurant story, food gallery, contact details, and online ordering.",
@@ -338,7 +338,7 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     id: "proj-highrise",
-    title: "HIGHRISE INTERNATIONAL WEBSITE",
+    title: "HIGHRISE INTERNATIONAL",
     subtitle: "Event Management, MICE & Experiential Marketing",
     category: "Web Applications",
     description: "A corporate website for Highrise International, presenting its event management, MICE, brand activation, and publishing work.",
@@ -358,7 +358,7 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     id: "proj-neomed",
-    title: "NEOMED INTERNATIONAL WEBSITE",
+    title: "NEOMED INTERNATIONAL",
     subtitle: "Medical E-commerce Storefront Redesign",
     category: "Web Applications",
     description: "A redesigned storefront for NeoMed International that preserves the original site's product content and routes while providing a modern shopping experience.",
@@ -377,7 +377,7 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     id: "proj-chibs",
-    title: "CHIBS & CO. WEBSITE",
+    title: "CHIBS & CO.",
     subtitle: "Personalized Hand-Painted Wooden Dolls",
     category: "Web Applications",
     description: "A product and brand website for CHIBS & CO., showcasing hand-painted wooden dolls and personalized Sweet Chibis as keepsakes and gifts.",

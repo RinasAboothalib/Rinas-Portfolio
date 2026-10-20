@@ -276,6 +276,25 @@ export const PROJECTS_DATA: Project[] = [
     demoUrl: "https://rinas.vercel.app",
     image: "/project-portfolio.png",
     featured: true
+  },
+  {
+    id: "proj-vs-plus",
+    title: "VISUAL STUDIOS PLUS WEBSITE",
+    subtitle: "Creative Agency Website & Digital Portfolio",
+    category: "Web Applications",
+    description: "A responsive website for Visual Studios Plus, presenting the creative agency's services, film work, case studies, photography, and contact information.",
+    problem: "Creative agencies need a polished online presence to showcase their work, communicate their services, and help prospective clients get in touch.",
+    solution: "Built a React single-page website with client-side routes for the agency's work, photography archive, services, about page, and contact page.",
+    keyFeatures: [
+      "Dedicated work pages for four featured films",
+      "Photography archive with food, fashion, jewellery, and hospitality categories",
+      "Agency services, about, and contact pages",
+      "GSAP ScrollTrigger animations and Lenis smooth scrolling"
+    ],
+    technologies: ["React", "Vite", "React Router", "GSAP", "Lenis"],
+    githubUrl: "https://github.com/RinasAboothalib/VS-plus",
+    image: "https://raw.githubusercontent.com/RinasAboothalib/VS-plus/af20c14d49b2cd7fbbb3d8d1bcc75370de98a199/public/assets/img/Cover.jpeg",
+    featured: true
   }
 ];
 

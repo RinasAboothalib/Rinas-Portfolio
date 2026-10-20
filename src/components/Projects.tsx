@@ -98,6 +98,9 @@ export const Projects: React.FC = () => {
                     {project.id === 'proj-portfolio' && (
                       <Layout className="w-10 h-10 text-cyan-400 group-hover:scale-110 transition-transform" />
                     )}
+                    {project.id === 'proj-vs-plus' && (
+                      <Sparkles className="w-10 h-10 text-cyan-400 group-hover:scale-110 transition-transform" />
+                    )}
 
                     <div className="font-bold text-slate-100 text-sm tracking-tight">
                       {project.title}

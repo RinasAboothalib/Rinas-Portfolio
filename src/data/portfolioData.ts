@@ -25,7 +25,7 @@ export const PERSONAL_INFO = {
     email: "mailto:rrrinas44@gmail.com"
   },
   stats: [
-    { label: "Projects", value: "4+" },
+    { label: "Projects", value: "11+" },
     { label: "Focus", value: "AI / ML" },
     { label: "Microsoft Student Ambassador", value: "2024 – Present" },
     { label: "Languages", value: "3" }
